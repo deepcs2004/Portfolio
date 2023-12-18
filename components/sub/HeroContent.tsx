@@ -56,7 +56,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Your one-stop shop for digital success! We're a top-notch Full-Stack Software Agency, experts in crafting websites, mobile apps, and software solutions. Check out our projects and skills – your business deserves the best!
+          Your one-stop shop for digital success! We're a top-notch Full-Stack Software Agency, experts in crafting websites, mobile apps, and software solutions. Check out our projects and skills  your business deserves the best!
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
