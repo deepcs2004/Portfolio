@@ -1,7 +1,7 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
 import React from "react";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
@@ -12,10 +12,10 @@ const Navbar = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/NavLogo.png"
+            src="/money.png"
             alt="logo"
-            width={70}
-            height={70}
+            width={40}
+            height={40}
             className="cursor-pointer hover:animate-slowspin"
           />
 
@@ -40,13 +40,23 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-5">
           {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
+            // <Link to={social.toLink}>
+            <a
+              href={social.toLink}  
+              target="_blank"        
+              rel="noopener noreferrer"
               key={social.name}
-              width={24}
-              height={24}
-            />
+            >
+              <Image
+                src={social.src}
+                alt={social.name}
+                key={social.name}
+                width={24}
+                height={24}
+                className="cursor-pointer"
+              />
+            </a>
+            // </Link>
           ))}
         </div>
       </div>

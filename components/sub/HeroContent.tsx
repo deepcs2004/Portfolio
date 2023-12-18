@@ -24,7 +24,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            Fullstack Website For Buisness
           </h1>
         </motion.div>
 
@@ -38,7 +38,7 @@ const HeroContent = () => {
               {" "}
               the best{" "}
             </span>
-            project exprience
+            customer exprience
           </span>
         </motion.div>
 
@@ -46,8 +46,7 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          Your one-stop shop for digital success! We're a top-notch Full-Stack Software Agency, experts in crafting websites, mobile apps, and software solutions. Check out our projects and skills – your business deserves the best!
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
