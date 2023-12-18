@@ -8,8 +8,9 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Space Portfolio",
-  description: "This is my portfolio",
+  title: "MoneyView",
+  description: "Welcome to MoneyView.Cloud, the official website of our agency specializing in bespoke software solutions for businesses. Our vision is to empower enterprises with cutting-edge technology tailored to their unique needs. With a focus on innovation, user-friendly interfaces, and scalability, we offer services in ERP, CRM, business intelligence, and cloud solutions. Contact us to elevate your business with technology that evolves alongside your growth. MoneyView.Cloud Where Innovation Meets Business Excellence.",
+  
 };
 
 export default function RootLayout({
