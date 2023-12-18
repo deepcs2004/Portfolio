@@ -89,7 +89,7 @@ export const Skill_data = [
     {
       name: "Facebook",
       src: "/facebook.svg",
-      toLink: "",
+      toLink: "https://www.facebook.com/scalllper",
     },
     {
       name: "Github",

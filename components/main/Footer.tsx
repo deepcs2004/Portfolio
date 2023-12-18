@@ -29,15 +29,15 @@ const Footer = () => {
                         <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                             <div className="font-bold text-[16px]">Social Media</div>
                             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                                <RxInstagramLogo />
+                                <a href="https://www.instagram.com/scalllper"> <RxInstagramLogo /></a>
                                 <span className="text-[15px] ml-[6px]">Instagram</span>
                             </p>
                             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                                <RxTwitterLogo />
+                                <a href="https://twitter.com/scalllper"> <RxTwitterLogo /></a>
                                 <span className="text-[15px] ml-[6px]">Twitter</span>
                             </p>
                             <p className="flex flex-row items-center my-[15px] cursor-pointer">
-                                <RxLinkedinLogo />
+                                <a href="https://www.linkedin.com/in/deep-pal2004/"> <RxLinkedinLogo /></a>
                                 <span className="text-[15px] ml-[6px]">Linkedin</span>
                             </p>
                         </div>
@@ -49,7 +49,7 @@ const Footer = () => {
                             </p>
                             <p className="flex flex-row items-center my-[15px] cursor-pointer">
 
-                                <span className="text-[15px] ml-[6px]">Learning about me</span>
+                                <span className="text-[15px] ml-[6px]">Learn about us</span>
                             </p>
                             <p className="flex flex-row items-center my-[15px] cursor-pointer">
 
