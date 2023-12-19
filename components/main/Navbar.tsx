@@ -5,8 +5,8 @@ import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-10">
-      <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
+    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 lg:px-10 px-2  ">
+      <div className="w-full h-full flex flex-row items-center justify-between m-auto lg:px-[10px]">
         <a
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
@@ -16,7 +16,7 @@ const Navbar = () => {
             alt="logo"
             width={40}
             height={40}
-            className="cursor-pointer hover:animate-slowspin"
+            className="cursor-pointer sm:w-20 sm:h-20 hover:animate-slowspin"
           />
 
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
@@ -38,7 +38,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-row  lg:gap-5 gap-2">
           {Socials.map((social) => (
             // <Link to={social.toLink}>
             <a

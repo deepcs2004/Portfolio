@@ -13,7 +13,7 @@ import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
 
-    
+
     return (
         <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[15px] ">
             <div className="w-full flex flex-col items-center justify-center m-auto">
@@ -55,12 +55,12 @@ const Footer = () => {
 
                                 <span className="text-[15px] ml-[6px]">Learn about us</span>
                             </p>
+
                             <p className="flex flex-row items-center my-[15px] cursor-pointer">
 
-                                <a href="mailto:contactmoneyview@gmail.com" className="text-[15px] ml-[6px] text-red-500 hover:text-green-700 break-words">
-                                    contactmoneyview@gmail.com
-                                </a>
+                                <span className="text-[15px] ml-[6px]">Terms & Condition</span>
                             </p>
+
                         </div>
 
 
@@ -69,8 +69,13 @@ const Footer = () => {
                     </div>
                 </div>
 
-                
 
+                <p className="flex flex-row items-center my-[15px] cursor-pointer pb-4 ">
+
+                    <a href="mailto:contactmoneyview@gmail.com" className="text-[15px] ml-[6px] text-red-500 hover:text-green-700 break-words">
+                        contactmoneyview@gmail.com
+                    </a>
+                </p>
 
                 <div className="mb-[20px] text-[15px] text-center text-bold">
                     &copy; MoneyView 2023 Inc. All rights reserved
