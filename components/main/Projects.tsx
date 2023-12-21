@@ -11,7 +11,7 @@ const Projects = () => {
         Our Works
       </h1>
       <div className="h-full w-full grid md:grid-cols-3 gap-10 px-10">
-      
+
         <ProjectCard
           src="/NextWebsite.png"
           title="Modern Books Website"
@@ -22,7 +22,6 @@ const Projects = () => {
           title="Interactive Portfolio "
           description="Immerse yourself in creativity at Interactive Portfolio. Engage with dynamic projects showcasing skills and passion for a memorable online experience."
         />
-        
 
         <ProjectCard
           src="/CardImage2.png"
