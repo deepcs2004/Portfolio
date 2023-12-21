@@ -8,7 +8,7 @@ const Projects = () => {
       id="projects"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
-        Our Previous Projects
+        Our Works
       </h1>
       <div className="h-full w-full grid md:grid-cols-3 gap-10 px-10">
       
