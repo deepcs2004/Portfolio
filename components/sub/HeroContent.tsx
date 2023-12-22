@@ -74,7 +74,7 @@ const HeroContent = () => {
           initial="zoomOut"
           animate="zoomIn"
           transition={zoomInAndOutTransition}
-          className="py-2 button-primary text-center ml-2 text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-center ml-3 text-white cursor-pointer rounded-lg max-w-[200px]"
           onClick={handleLearnMoreClick}
         >
           Book Your Appointment!
