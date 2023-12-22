@@ -15,11 +15,21 @@ const HeroContent = () => {
 
   const handleLearnMoreClick = () => {
     // GOOGLE_FORM_URL
-    const googleFormUrl = 'https://forms.gle/cxiywxacfAFeCzgp6'; 
+    const googleFormUrl = 'https://forms.gle/cxiywxacfAFeCzgp6';
     window.open(googleFormUrl, '_blank');
   };
 
 
+  const zoomInAndOutVariants = {
+    zoomIn: { scale: 1.2 },
+    zoomOut: { scale: 1 }
+  };
+
+  const zoomInAndOutTransition = {
+    repeat: Infinity,
+    duration: 1, // Adjust the duration as needed
+    repeatType: 'reverse' as 'reverse' // Reverse the animation for a smooth transition
+  };
 
   return (
     <motion.div
@@ -60,11 +70,14 @@ const HeroContent = () => {
         </motion.p>
 
         <motion.a
-          variants={slideInFromLeft(1)}
+          variants={zoomInAndOutVariants}
+          initial="zoomOut"
+          animate="zoomIn"
+          transition={zoomInAndOutTransition}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           onClick={handleLearnMoreClick}
         >
-          Learn More!
+          Book Your Appointment!
         </motion.a>
       </div>
 
