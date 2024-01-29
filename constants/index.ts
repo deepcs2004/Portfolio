@@ -84,7 +84,7 @@ export const Skill_data = [
     {
       name: "Instagram",
       src: "/instagram.svg",
-      toLink: "https://www.instagram.com/nubeceo",
+      toLink: "https://www.instagram.com/scalllper",
     },
     {
       name: "Facebook",
