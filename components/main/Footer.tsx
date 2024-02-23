@@ -24,7 +24,7 @@ const Footer = () => {
                         <div className="font-bold text-[16px]">Founder</div>
                         <p className="flex flex-row items-center my-[15px] cursor-pointer">
                             <RxInstagramLogo />
-                            <span className="text-[15px] ml-[6px] text-bold text-purple-600">Deep Pal</span>
+                            <span className="text-[15px] ml-[6px] text-bold text-purple-600">Sandeep Jain</span>
                         </p>
                     </div>
 
